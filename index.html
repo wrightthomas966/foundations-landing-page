@@ -4,71 +4,76 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <title>Foundations Landing page</title>
 </head>
 <body>
-    <header>
-        <nav>
+    <header class="flex col">
+        <nav class="flex">
             <h1>Header Logo</h1>
-            <ul>
+            <ul class="flex">
                 <li><a href="#">Header link one</a></li>
                 <li><a href="#">Header link two</a></li>
                 <li><a href="#">Header link three</a></li>
             </ul>
         </nav>
-        <div class="hero">
-            <div class="hero-text">
+        <div class="hero flex">
+            <div class="hero-text flex col">
                 <h2>This website is awesome</h2>
                 <p>
                     This website has some subtext that goes here under the main title. It's a smaller font and the color is lower contrast
                 </p>
-                <button>Sign up</button>
+                <div>
+                    <button>Sign up</button>
+                </div>
             </div>
-            <img src="#" width="500">
+            <img src="images/person-using-laptop.jpg" width="200" class="hero-img">
         </div>
     </header>
-    <section>
+    <section class="info">
         <h1>Some random information.</h1>
-        <ul>
-            <li>
-                <img src="#" width="200">
+        <ul class="flex">
+            <li class="info-item">
+                <img src="images/person-using-laptop.jpg" width="200" class="info-image">
                 <p>
                     This is some subtext under an illustration or image
                 </p>
             </li>
-            <li>
-                <img src="#" width="200">
+            <li class="info-item">
+                <img src="images/person-using-laptop.jpg" width="200" class="info-image">
                 <p>
                     This is some subtext under an illustration or image
                 </p>
             </li>
-            <li>
-                <img src="#" width="200">
+            <li class="info-item">
+                <img src="images/person-using-laptop.jpg" width="200" class="info-image">
                 <p>
                     This is some subtext under an illustration or image
                 </p>
             </li>
-            <li>
-                <img src="#" width="200">
+            <li class="info-item">
+                <img src="images/person-using-laptop.jpg" width="200" class="info-image">
                 <p>
                     This is some subtext under an illustration or image
                 </p>
             </li>
         </ul>
     </section>
-    <section>
-        <blockquote>
+    <section class="quote">
+        <blockquote class="flex col">
             This is an inspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice.
+            <cite>-Thor, God of Thunder</cite>
         </blockquote>
-        <cite>-Thor, God of Thunder</cite>
     </section>
     <section>
-        <div class="c2a-box">
+        <div class="c2a-box flex">
             <div>
                 <h1>Call to action! It's time!</h1>
                 <p>Sign up for our product by clicking that button right over there!</p>
             </div>
-            <button>Sign up</button>
+            <div>
+                <button>Sign up</button>
+            </div>
         </div>
     </section>
     <footer>
